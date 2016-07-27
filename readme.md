@@ -21,12 +21,25 @@ Usage
     
 **html**
 
-    <select multiple="multiple" data-ng-options="the-options" data-ng-model="the-model" data-multiselectsearch="the-options"></select>
+    <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions"></select>
 
-To Do
-============
-- Implement options
-- Implement events
+<hr />
+
+options / events
+---------------------------
+
+**javascript**
+
+    $scope.msOptions = {
+        afterInit: function (container) {
+            console.log('afterInit');
+        }
+    };
+    
+**html**
+
+    <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions" data-multi-select="options"></select>
+
 
 License
 ============
