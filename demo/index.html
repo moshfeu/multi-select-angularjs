@@ -1,0 +1,61 @@
+<html data-ng-app="demo">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/multi-select.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body data-ng-controller="ctrl">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">AngularJS multi-select</a>
+            </div>
+            <!--<ul class="nav navbar-nav">
+                <li class="active"><a href="#">Regular</a></li>
+                <li><a href="#search">With Search</a></li>
+            </ul>-->
+        </div>
+    </nav>
+    <div class="container">
+        <section id="regular">
+            <h2>Regular</h2>
+            <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions" data-multi-select="options"></select>
+            <pre>{{selectedOptions}}</pre>
+        </section>
+        <hr />
+        <section id="options">
+            <h2>Options</h2>
+            <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions2" data-multi-select="options" data-ms-options="msOptions1"></select>
+            <pre>{{}}</pre>
+        </section>
+        <hr />
+        <section id="search">
+            <h2>Searchable (using options)</h2>
+            <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions3" data-multi-select="options" data-ms-options="msOptions2"></select>
+            <pre>{{selectedOptions2}}</pre>
+        </section>
+        <hr />
+        <section id="selected">
+            <h2>Selected</h2>
+            <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions4" data-multi-select="options"></select>
+            <pre>{{selectedOptions3}}</pre>
+        </section>
+        <section id="remote">
+            <h2>Remote</h2>
+            <select multiple data-ng-options="option.name as option.name for option in optionsRemote" data-ng-model="selectedOptions5" data-multi-select="optionsRemote"></select>
+            <div class="form-group">
+                <button class="btn btn-primary" data-ng-click="loadOptions()">"Load" options</button>
+            </div>
+            <pre>{{optionsRemote}} | {{selectedOptions5}}</pre>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+    <script src="js/jquery.multi-select.js"></script>
+    <script src="js/jquery.quicksearch.js"></script>
+    <script src="../dist/angular.multi-select.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
