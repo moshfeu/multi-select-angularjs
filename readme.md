@@ -16,30 +16,30 @@ Usage
 ============
 
 **javascript**
-
-    app.module('your-modoule', ['jq-multi-select']);
-    
+```javascript
+app.module('your-modoule', ['jq-multi-select']);
+```    
 **html**
-
-    <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions"></select>
-
+```html
+<select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions"></select>
+```
 <hr />
 
 options / events
 ---------------------------
 
 **javascript**
-
-    $scope.msOptions = {
-        afterInit: function (container) {
-            console.log('afterInit');
-        }
-    };
-    
+```javascript
+$scope.msOptions = {
+    afterInit: function (container) {
+        console.log('afterInit');
+    }
+};
+``` 
 **html**
-
-    <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions" data-multi-select="options"></select>
-
+```html
+<select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions" data-multi-select="options"></select>
+```
 
 License
 ============
