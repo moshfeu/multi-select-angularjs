@@ -1,5 +1,7 @@
 An AngularJS directive for the plugin [multi-select](https://github.com/lou/multi-select)
 
+[Demo](http://htmlpreview.github.io/?https://github.com/moshfeu/multi-select-angularjs/blob/master/demo/index.html)
+
 Depenecies
 ============
 - jQuery 1.8+
