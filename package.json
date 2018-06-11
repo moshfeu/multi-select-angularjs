@@ -1,0 +1,31 @@
+{
+  "name": "multi-select-angularjs",
+  "version": "1.0.0",
+  "description": "AngularJS directive for the \"multi-select\" jQuery plugin",
+  "scripts": {
+    "start": "http-server -p 12234 | open http://127.0.0.1:12234/demo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshfeu/multi-select-angularjs.git"
+  },
+  "keywords": [
+    "angularjs",
+    "multi-select",
+    "jquery",
+    "plugin",
+    "directive"
+  ],
+  "author": "MosheF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshfeu/multi-select-angularjs/issues"
+  },
+  "homepage": "https://github.com/moshfeu/multi-select-angularjs#readme",
+  "dependencies": {
+    "angular": "^1.5.11",
+    "jquery": "^3.3.1",
+    "jquery.quicksearch": "^2.4.0",
+    "multiselect": "^0.9.12"
+  }
+}
