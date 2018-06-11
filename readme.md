@@ -7,7 +7,7 @@
 
 An AngularJS directive for the plugin [multi-select](https://github.com/lou/multi-select)
 
-[Demo](https://moshfeu.github.io/multi-select-angularjs/demo/)
+<a href="https://moshfeu.github.io/multi-select-angularjs/demo/" target="_blank">Demo</a>
 
 Depenecies
 ============
