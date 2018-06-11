@@ -26,11 +26,13 @@ npm install multi-select-angularjs --save
 ```
 
 ```html
+<link href="node_modules/multiselect/css/multi-select.css" rel="stylesheet" />
+
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/multiselect/js/jquery.multi-select.js"></script>
 <script src="node_modules/jquery.quicksearch/dist/jquery.quicksearch.min.js"></script>
-<script src="node_modules/dist/angular.multi-select.js"></script>
+<script src="node_modules/multi-select-angularjs/dist/angular.multi-select.js"></script>
 ```
 
 

@@ -1,6 +1,6 @@
 {
   "name": "multi-select-angularjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS directive for the \"multi-select\" jQuery plugin",
   "scripts": {
     "start": "http-server -p 12234 | open http://127.0.0.1:12234/demo/"
