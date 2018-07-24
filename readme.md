@@ -12,8 +12,9 @@ __Table of content__
 - [Demo](#demo)
 - [Depenecies](#depenecies)
 - [Installation](#installation)
-- [Options / Events](#options-events)
+- [Options / Events](#options--events)
 - [Contributors](#contributors)
+- [License](#license)
 
 ## Demo
 
@@ -76,8 +77,7 @@ $scope.msOptions = {
 ```
 
 ## contributors
-@bigtree6688
+[@bigtree6688](https://github.com/bigtree6688)
 
-License
-============
+## License
 [MIT](http://opensource.org/licenses/MIT) License.
