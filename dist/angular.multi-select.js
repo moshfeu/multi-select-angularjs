@@ -18,12 +18,11 @@ directive('multiSelect', [function () {
     },
     link: function (scope, element, attrs, ngModel) {
       init(element, scope.msOptions);
-
-      scope.$watch(function () {
-        return (ngModel && ngModel.$modelValue) || scope.multiSelect;
-      }, function () {
-        refresh(element);
-      });
-    }
-  };
+        scope.$watch(function () {
+            return (ngModel && ngModel.$modelValue && ngModel.$modelValue.length !== 0) || scope.multiSelect;
+        }, function (n) {
+            refresh(element);
+        });
+      }
+    };
 }]);
