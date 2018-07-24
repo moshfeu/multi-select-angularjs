@@ -7,20 +7,30 @@
 
 An AngularJS directive for the plugin [multi-select](https://github.com/lou/multi-select)
 
+__Table of content__
+
+- [Demo](#demo)
+- [Depenecies](#depenecies)
+- [Installation](#installation)
+- [Options / Events](#options-events)
+- [Contributors](#contributors)
+
+## Demo
+
 <a href="https://moshfeu.github.io/multi-select-angularjs/demo/" target="_blank">Demo</a>
 
-Depenecies
-============
+## Depenecies
+
 - jQuery 1.8+
 - angularjs
 - jquery.multi-select.js
 
-Optinoal
-============
+### Optinoal
+
 - jquery.quicksearch.js ([docs](http://loudev.com/) - find the title `Searchable`)
 
-Installation
-============
+## Installation
+
 ```shell
 npm install multi-select-angularjs --save
 ```
@@ -36,8 +46,7 @@ npm install multi-select-angularjs --save
 ```
 
 
-Usage
-============
+## Usage
 
 **javascript**
 ```javascript
@@ -49,8 +58,7 @@ app.module('your-modoule', ['jq-multi-select']);
 ```
 <hr />
 
-options / events
----------------------------
+## Options / Events
 
 Pass the options ([docs](http://loudev.com/) - find the title `options`) object into `ms-options` attribute.
 
@@ -66,6 +74,9 @@ $scope.msOptions = {
 ```html
 <select multiple data-ng-options="option as option for option in options" data-ng-model="selectedOptions3" data-multi-select="options" data-ms-options="msOptions2"></select>
 ```
+
+## contributors
+@bigtree6688
 
 License
 ============
