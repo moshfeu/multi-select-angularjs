@@ -26,7 +26,7 @@ __Table of content__
 - angularjs
 - jquery.multi-select.js
 
-### Optinoal
+### Optional
 
 - jquery.quicksearch.js ([docs](http://loudev.com/) - find the title `Searchable`)
 
