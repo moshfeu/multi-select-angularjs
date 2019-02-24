@@ -78,6 +78,7 @@ $scope.msOptions = {
 
 ## Contributors
 [@bigtree6688](https://github.com/bigtree6688)
+[@flycal6](https://github.com/flycal6)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT) License.
