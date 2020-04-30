@@ -24,7 +24,7 @@
   "homepage": "https://github.com/moshfeu/multi-select-angularjs#readme",
   "dependencies": {
     "angular": "^1.7.9",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "jquery.quicksearch": "^2.4.0",
     "multiselect": "^0.9.12"
   }
